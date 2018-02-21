@@ -222,7 +222,7 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 }
 .header__row {
 	position:relative;
-	max-width:1230px;
+	width:1230px;
 	height:230px;
 	margin:0 auto;
 }
@@ -1113,7 +1113,7 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 	margin:-3px 0 2px 11px;
 }
 .fade-bg {
-	position:absolute;
+	position:fixed;
 	left:0;
 	top:0;
 	z-index:100;
