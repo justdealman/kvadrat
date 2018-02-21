@@ -1,0 +1,31 @@
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" transform="translate(-130 1051)">
+<g id="arrow left">
+<g id="Group">
+<g id="Rectangle 2">
+<use xlink:href="#path0_fill" transform="matrix(-0.707107 0.707107 0.707107 0.707107 146.667 -1047.5)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(-0.707107 0.707107 0.707107 0.707107 146.667 -1047.5)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(-0.707107 0.707107 0.707107 0.707107 146.667 -1047.5)"/>
+</g>
+</g>
+<g id="Rectangle 2 Copy">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-0.707107 0.707107 0.707107 0.707107 153.333 -1047.5)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-0.707107 0.707107 0.707107 0.707107 153.333 -1047.5)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 23.3333 0L 23.3333 23.3333L 17.8808 23.3333L 0 23.3333L 0 5.60403L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 23.3333 0L 24.3333 0L 24.3333 -1L 23.3333 -1L 23.3333 0ZM 23.3333 23.3333L 23.3333 24.3333L 24.3333 24.3333L 24.3333 23.3333L 23.3333 23.3333ZM 0 23.3333L -1 23.3333L -1 24.3333L 0 24.3333L 0 23.3333ZM 0 1L 23.3333 1L 23.3333 -1L 0 -1L 0 1ZM 22.3333 0L 22.3333 23.3333L 24.3333 23.3333L 24.3333 0L 22.3333 0ZM 23.3333 22.3333L 17.8808 22.3333L 17.8808 24.3333L 23.3333 24.3333L 23.3333 22.3333ZM 17.8808 22.3333L 0 22.3333L 0 24.3333L 17.8808 24.3333L 17.8808 22.3333ZM 1 23.3333L 1 5.60403L -1 5.60403L -1 23.3333L 1 23.3333ZM 1 5.60403L 1 0L -1 0L -1 5.60403L 1 5.60403Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 23.3333 17.9491L 23.3333 23.3333L 0 23.3333L 0 0L 5.60292 0"/>
+<path id="path3_stroke_2x" d="M 23.3333 23.3333L 23.3333 24.3333L 24.3333 24.3333L 24.3333 23.3333L 23.3333 23.3333ZM 0 23.3333L -1 23.3333L -1 24.3333L 0 24.3333L 0 23.3333ZM 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 22.3333 17.9491L 22.3333 23.3333L 24.3333 23.3333L 24.3333 17.9491L 22.3333 17.9491ZM 23.3333 22.3333L 0 22.3333L 0 24.3333L 23.3333 24.3333L 23.3333 22.3333ZM 1 23.3333L 1 0L -1 0L -1 23.3333L 1 23.3333ZM 0 1L 5.60292 1L 5.60292 -1L 0 -1L 0 1Z"/>
+</defs>
+</svg>
