@@ -102,7 +102,7 @@ $(function() {
 	}
 	function repeatCalc() {
 		$('.price__result').removeClass('is-active');
-		setStep(1,1);
+		setStep(1,0);
 		setHeight();
 	}
 	
@@ -110,24 +110,25 @@ $(function() {
 		if ( $(this).parents('.price__col').hasClass('is-active') ) {
 			var current = parseInt($(this).parents('.price__col').attr('data-step'));
 			var target = current+1;
-			setStep(target);
+			setStep(target,0);
 			setHeight();
 		}
 	});	
 	$('.price__nav span').on('click', function() {
 		if ( $(this).hasClass('is-active') ) {
-			setStep($(this).attr('data-go'),1);
+			setStep($(this).attr('data-go'),0);
 			setHeight();
 		}
 	});
 	$('.price__col [data-finish]').on('click', function() {
+		setStep(0,0);
 		showResult();
 	});
 	$('[data-recalc]').on('click', function() {
 		repeatCalc();
 	});
 	$('.price__col--bg').on('click', function() {
-		setStep($(this).parents('.price__col').attr('data-step'),1);
+		setStep($(this).parents('.price__col').attr('data-step'),0);
 	});
 
 	setStep(1,0);
@@ -165,5 +166,9 @@ $(function() {
 		e.preventDefault();
 		$('[data-target], .fade-bg').removeClass('is-opened');
 		$('[data-open]').removeClass('is-active');
+	});
+	
+	$('.zoom').fancybox({
+		padding: 0
 	});
 });
