@@ -719,12 +719,14 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 .process__content ul {
 	position:relative;
 	z-index:1;
+	max-width:530px;
 	margin:0;
 }
 .process__content li {
 	position:relative;
 	font-size:20px;
 	line-height:28px;
+	padding-left:39px;
 	margin:0 0 22px;
 }
 .process__content li:before {
@@ -737,6 +739,9 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 	background:#4a4a4a;
 }
 .process__content li span {
+	position:absolute;
+	left:0;
+	top:0;
 	display:inline-block;
 	font-size:28px;
 	font-weight:bold;
