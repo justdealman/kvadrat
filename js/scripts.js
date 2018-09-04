@@ -130,9 +130,11 @@ $(function() {
 	$('.price__col--bg').on('click', function() {
 		setStep($(this).parents('.price__col').attr('data-step'),0);
 	});
-
-	setStep(1,0);
-	setHeight();
+	
+	if ( $('.price').length ) {
+		setStep(1,0);
+		setHeight();
+	}
 	
 	function startApp() {
 		setRatio();
