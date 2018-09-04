@@ -1722,7 +1722,11 @@ div.checker,div.radio{position:relative}div.checker,div.checker input,div.checke
 .measuring__row {
 	position:relative;
 	z-index:1;
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
+	-webkit-box-pack:end;
+	-ms-flex-pack:end;
 	justify-content:flex-end;
 	max-width:1170px;
 	min-height:443px;
